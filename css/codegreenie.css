@@ -1,0 +1,44 @@
+#colorlib-aside{
+	overflow-y: hidden;
+}
+.slider-text{
+	width: 80%;
+}
+
+.desc h1, .desc h2{
+	color:#ededed !important;
+	text-shadow: 2px 2px #096;
+	font-family: "Poppins";
+
+}
+.hire{
+	color: #fff !important;
+	background-color: #2c98f0;
+}
+.hire h2{
+	color: #fff !important;
+}
+.hire a{
+	color: #fff !important;
+	border: solid thin #fff !important;
+	padding: 15px 25px !important;
+}
+.btn-learn{
+	color: #fff !important;
+	border: solid thin #fff !important;
+}
+
+.btn-learn:hover{
+	color: #fff !important;
+	border:solid thin #fff !important;
+}
+
+#colorlib-hero .flexslider .slider-text > .slider-text-inner h1, #colorlib-hero .flexslider .slider-text > .slider-text-inner h2{
+	    font-family: "Quicksand", "Playfair Display", Georgia, serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Quicksand", "Playfair Display", Georgia, serif;
+}
+textarea{
+	resize: none;
+}
