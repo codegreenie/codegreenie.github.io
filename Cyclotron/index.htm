@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)http://kaioa.com/k/test/cyclotron/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title></title>
+		<meta charset="UTF-8">
+		<style>
+			html, body {
+				margin: 0;
+				padding: 0;
+			}
+			.cycle {
+				background-image: url(cyclotron.jpg);
+				height: 512px;
+				cursor: move;
+			}
+			.box {
+				width: 512px;
+				margin: 0 auto;
+				font-family: arial, sans-serif;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="cycle" style="background-position: -4067.3560813933063px 50%; "></div>
+
+		<div class="box">
+			<h2>Cyclotron 360<sup>o</sup> made by codegreenie@gmail.com(Upwork Sample)</h2>
+			<p>Drag the image above around!</p>
+			
+		</div>
+
+		<script src="./index_files/jquery-1.7.1.min.js"></script>
+		<!--<script src="cycle.js"></script>-->
+		<script src="./index_files/jquery.cyclotron.js"></script>
+		<script>
+		$(document).ready(function ($) {
+			$('.cycle').cyclotron({
+				dampingFactor: 0.5
+			});
+		});
+		</script>
+	
+</body></html>
